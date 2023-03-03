@@ -130,6 +130,7 @@ public class Main {
 
                     open = false;
                 }else if(input == 2){
+                    //Nur (Pengerjaan kondisi menu volume Balok dan Tabung)
                     System.out.println("-------------------------------------------");
                     System.out.println("Anda memilih Balok");
                     System.out.println("-------------------------------------------");
@@ -155,7 +156,7 @@ public class Main {
                     jariJari = userInput.nextInt();
                     System.out.print("Masukan Tinggi :");
                     tinggi = userInput.nextInt();
-                    System.out.printf("Volume Tabung Adalah " + (jariJari*tinggi*pi));
+                    System.out.printf("Volume Tabung Adalah " + (jariJari*jariJari*tinggi*pi));
                     System.out.println("-------------------------------------------");
                     System.out.println("Tekan apa saja untuk kembali ke menu utama");
                     userInput.hasNext();
